@@ -1,0 +1,66 @@
+body{
+	background-image: url('1.jpg');
+}
+h1{
+	color:white;
+	bottom:360%;
+	left:16%;
+	margin: auto;
+	position: absolute;
+}
+input{
+	border: 2px solid rgba(255,255,255,0.2);
+	border-radius: 6px;
+}
+.login{
+	width:320px;
+	height:240px ;
+	background-color: rgba(200,200,200,0.2);
+	position: relative;
+	margin: auto;
+	margin-top: 200px;
+	backdrop-filter: blur(3px);
+	border: 3px solid rgba(255,255,255,0.2);
+	border-radius: 12px;
+	box-shadow:10px 10px 5px rgba(200,200,200,0.3);
+}
+
+.text{
+	position: absolute;
+	left:10%;
+	top:20%;
+	color: aliceblue;
+	font-size: 18px;
+}
+.time{
+	position: absolute;
+	left:60%;
+	top:66%;
+}
+.message{
+	    position: absolute;
+		top:40%;
+		background-color: rgba(42, 42, 42, 0.5);	
+		border-radius: 11%;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		left:38%;
+		border: 1px solid rgba(255,255,255,0.2);
+		border-radius: 12px;
+
+}
+.message:hover{
+		
+		background-color: rgba(42, 42, 42, 0.4);
+		cursor: pointer;
+}
+.message:disabled{
+	color:rgb(220,220,220);
+	background-color: rgba(128, 128, 128, 0.6);
+}
